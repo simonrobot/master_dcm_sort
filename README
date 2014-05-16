@@ -1,0 +1,50 @@
+# Create By Gagan Sharma 4th of Feb 2014
+# Contact: gaganjyoti@gmail.com
+
+#This code is based upon Dr Christensen's sorting and de identifying code
+ But.....
+ This code is completely based upon Python and Pydicom(very intitutive)
+ rather than using combination of Python , bash and DCM toolkit.
+
+# Requirements
+  Python 2.7 
+  Pydicom package from MIT
+
+# AIM
+  * To deidentify data based upon a text file containing Patients UID and 
+    mapping name for example
+    201589,Patient0001
+    478569,Patient0001
+    8796542,Patient0002
+
+# Current Functionality
+  * It can sort and deidentify the data.
+  * For the Deidentification
+    This uses Call back function.So rather writing few lines to 
+    Patient's name, Physician Name, Operator name. One line does
+    the trick.
+
+# To Do
+  Create logs which will report
+  1. How many files were sorted
+  2. How many of them were duplicates.
+  3. NonDicom files and others.
+
+--------------
+Revision 1.0
+--------------
+
+
+
+
+
+--------------
+Revision 1.a
+--------------
+
+
+
+
+
+ 
+
